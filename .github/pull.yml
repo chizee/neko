@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: master
+    upstream: m1k1o:master
+    mergeMethod: hardreset
+    mergeUnstable: true
